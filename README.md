@@ -1,6 +1,24 @@
 # AI's Gift Recommendation
 
-Youtube Link: https://www.youtube.com/watch?v=cUgiD5I4dtM
+
+Calulating metrics: https://www.youtube.com/watch?v=tvl9b8zuU28
+RAG implementation:Youtube Link: https://www.youtube.com/watch?v=cUgiD5I4dtM
+
+Metrics Assignment:
+
+Here is how I have implemented the code to calculate metrics:
+
+Test.py is the initial code without any improvements.
+
+test_improved_prompt is the file where I’ve tried to improve quality of prompts to further improve the results
+
+test_k is to increase the number of results to 5 and see if everything is relevant
+
+test_improved_spelling is to check if the prompt has wrong spelling, but it stills gives related output
+
+An additional feature for the project purpose is I have included a fake_url api to see the results, so that further I can integrate an actual API like amazon or target to fetch the results.
+
+test-final.py has all the improvements and gives accurate results as tested.
 
 ### Documentation
 
